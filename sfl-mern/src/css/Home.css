@@ -1,0 +1,32 @@
+body{
+    margin:0%;
+}
+.Home{
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.582);
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.home-logo{
+
+    font-size: 18vh;
+    color: black;
+    margin-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home-login-but{
+    font-size: 8vh;
+    color: white;
+    margin-right: 2%;
+    padding: 8px;
+    border-radius: 8%;
+    background-color: grey;
+}
+.home-login-but:hover{
+    scale: 1.1;
+    background-color: rgb(104, 104, 104);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

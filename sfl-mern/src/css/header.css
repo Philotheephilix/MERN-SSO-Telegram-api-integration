@@ -1,0 +1,32 @@
+body{
+    margin:0%;
+}
+.header{
+    width: 100vw;
+    background-color: black;
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    justify-content: flex-start;
+    font-size: 4vh;
+    color: white;
+    margin-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login-but{
+    margin-left: auto;
+    font-size: 3vh;
+    color: white;
+    margin-right: 2%;
+    padding: 8px;
+    border-radius: 8%;
+    background-color: grey;
+}
+.login-but:hover{
+    scale: 1.1;
+    background-color: rgb(104, 104, 104);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
