@@ -2,3 +2,5 @@
 .env
 /node_modules
 /sfl-mern/node_modules
+/sfl-mern-app-1/node_modules
+/sfl-mern-app-2/node_modules
